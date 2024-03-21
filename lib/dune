@@ -1,3 +1,3 @@
 (library
- (name ocaml_mortgage_simulator)
+ (name mortgage_simulator)
  (libraries yojson))
