@@ -1,4 +1,4 @@
 (executable
- (public_name ocaml_mortgage_simulator)
+ (public_name mortgage_simulator)
  (name main)
- (libraries ocaml_mortgage_simulator))
+ (libraries mortgage_simulator))
