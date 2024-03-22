@@ -1,0 +1,90 @@
+open Units
+
+type labels = {
+  format_currency : currency -> string;
+  format_number : float -> string;
+  format_years : years -> string;
+  page_title : string;
+  new_report : string;
+  home : string;
+  select_a_mortgage : string;
+  change_mortgage : string;
+  new_mortgage : string;
+  rate_first_year : string;
+  rate_rest_of_years : string;
+  rate_first_and_rest : string;
+  extra_expenses : string;
+  loan_amount : string;
+  amount : string;
+  years : string;
+  year : string;
+  select_amortization : string;
+  amortize_every_year : string;
+  bank : string;
+  bank_name : string;
+  back : string;
+  save_mortgage : string;
+  edit_current_mortgage : string;
+  edit_amortization : string;
+  save : string;
+  report_results : string;
+  payed_in : string;
+  total_expenses_and_interests : string;
+  monthly_payment_first_year : string;
+  monthly_payment_rest : string;
+  month : string;
+  payment : string;
+  interest : string;
+  amortized : string;
+  extra_amortization : string;
+  save_report : string;
+  download_session : string;
+  load_session : string;
+  view : string;
+  no_reports_saved : string;
+}
+
+let labels : labels =
+  {
+    format_currency = (fun n -> Printf.sprintf "%.2f" n ^ " €");
+    format_number = (fun n -> Printf.sprintf "%.2f" n);
+    format_years = (fun n_years -> Printf.sprintf "%.1f" n_years ^ " años");
+    page_title = "Calculadora de hipotecas";
+    new_report = "Nuevo caso de hipoteca";
+    home = "Inicio";
+    select_a_mortgage = "Selecciona una hipoteca";
+    change_mortgage = "Cambiar hipoteca";
+    new_mortgage = "Nueva hipoteca";
+    rate_first_year = "Interes primer año";
+    rate_rest_of_years = "Interes resto";
+    rate_first_and_rest = "Interes (1año / resto)";
+    extra_expenses = "Gastos hipoteca";
+    loan_amount = "Cantidad de prestamo";
+    amount = "Cantidad";
+    years = "Años";
+    year = "Año";
+    select_amortization = "Selecciona estrategia de amortizacion";
+    amortize_every_year = "Amortizar cada año";
+    bank = "Banco";
+    bank_name = "Nombre del banco";
+    back = "Volver atrás";
+    save_mortgage = "Guardar hipoteca";
+    edit_current_mortgage = "Editar hipoteca";
+    edit_amortization = "Cambiar amortizacion";
+    save = "Guardar";
+    report_results = "Resultados";
+    payed_in = "Pagado en";
+    total_expenses_and_interests = "Total gastos + intereses";
+    monthly_payment_first_year = "Cuota mensual 1er año";
+    monthly_payment_rest = "Cuota mensual resto";
+    month = "Mes";
+    payment = "Cuota";
+    interest = "Interes";
+    amortized = "Amortizado";
+    extra_amortization = "Amort. extra";
+    save_report = "Guardar caso en sesión";
+    download_session = "Guardar sesión";
+    load_session = "Cargar sesión";
+    view = "Ver";
+    no_reports_saved = "No hay casos guardados";
+  }
