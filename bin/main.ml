@@ -14,60 +14,212 @@ type report_in_progress = {
   amortization : amortization_in_progress;
 }
 
-type page = Home | AddNewReport of report_in_progress | ViewReport of Report.t
+type screen =
+  | Home
+  | Add_new_report of report_in_progress
+  | View_report of Report.t
 
-type state = {
-  mortgages : Mortgage.t list;
-  reports : Report.t list;
-  page : page;
-}
+type state = { session : Session.t; screen : screen }
 
 type action =
-  | NavigateToNewReport
-  | NavigateToHome
-  | SelectMortgage of Mortgage.t
-  | NewMortgage
-  | EditMortgage of Mortgage.t
-  | UpdateEditingMortgage of Editable_mortgage.t
-  | ResetMortgage
-  | UpdateEditingAmortization of Editable_amortization.t
-  | SelectAmortization of Amortization.t
-  | SaveReport of Report_results.t
-  | DownloadSession
-  | LoadSession
-  | SessionSelected of string (* this is a file? *)
-  | SessionLoaded of string
-  | OpenReportDetail of Report.t
+  | Navigate_to_new_report
+  | Navigate_to_home
+  | Select_mortgage of Mortgage.t
+  | New_mortgage
+  | Edit_mortgage of Mortgage.t
+  | Update_editing_mortgage of Editable_mortgage.t
+  | Reset_mortgage
+  | Update_editing_amortization of Editable_amortization.t
+  | Select_amortization of Amortization.t
+  | Save_report of Report_results.t
+  | Download_session
+  | Load_session
+  | Open_report_detail of Report.t
 
-let init () : state = { mortgages = []; reports = []; page = Home }
+let init () : state =
+  { session = { mortgages = []; reports = [] }; screen = Home }
 
 let update (action : action) (state : state) : state =
   match action with
-  | NavigateToNewReport -> state
-  | NavigateToHome -> state
-  | SelectMortgage _ -> state
-  | NewMortgage -> state
-  | EditMortgage _ -> state
-  | UpdateEditingMortgage _ -> state
-  | ResetMortgage -> state
-  | UpdateEditingAmortization _ -> state
-  | SelectAmortization _ -> state
-  | SaveReport _ -> state
-  | DownloadSession -> state
-  | LoadSession -> state
-  | SessionSelected _ -> state
-  | SessionLoaded _ -> state
-  | OpenReportDetail _ -> state
+  | Navigate_to_new_report ->
+      {
+        state with
+        screen =
+          Add_new_report
+            {
+              mortgage = Mortgage_not_chosen;
+              amortization = Amortization_chosen (Amortization.Yearly 0.0);
+            };
+      }
+  | Navigate_to_home -> { state with screen = Home }
+  | Select_mortgage mortgage -> (
+      match state.screen with
+      | Add_new_report in_progress_report ->
+          {
+            state with
+            screen =
+              Add_new_report
+                { in_progress_report with mortgage = Mortgage_chosen mortgage };
+          }
+      | _ -> state)
+  | New_mortgage -> (
+      match state.screen with
+      | Add_new_report in_progress_report ->
+          {
+            state with
+            screen =
+              Add_new_report
+                {
+                  in_progress_report with
+                  mortgage = Mortgage_editing Editable_mortgage.empty;
+                };
+          }
+      | _ -> state)
+  | Edit_mortgage mortgage -> (
+      match state.screen with
+      | Add_new_report in_progress_report ->
+          {
+            state with
+            screen =
+              Add_new_report
+                {
+                  in_progress_report with
+                  mortgage =
+                    Mortgage_editing (Editable_mortgage.from_mortgage mortgage);
+                };
+          }
+      | _ -> state)
+  | Update_editing_mortgage editable_mortgage -> (
+      match state.screen with
+      | Add_new_report in_progress_report ->
+          {
+            state with
+            screen =
+              Add_new_report
+                {
+                  in_progress_report with
+                  mortgage = Mortgage_editing editable_mortgage;
+                };
+          }
+      | _ -> state)
+  | Reset_mortgage -> (
+      match state.screen with
+      | Add_new_report in_progress_report ->
+          {
+            state with
+            screen =
+              Add_new_report
+                { in_progress_report with mortgage = Mortgage_not_chosen };
+          }
+      | _ -> state)
+  | Update_editing_amortization amortization -> (
+      match state.screen with
+      | Add_new_report in_progress_report ->
+          {
+            state with
+            screen =
+              Add_new_report
+                {
+                  in_progress_report with
+                  amortization = Amortization_editing amortization;
+                };
+          }
+      | _ -> state)
+  | Select_amortization amortization -> (
+      match state.screen with
+      | Add_new_report in_progress_report ->
+          {
+            state with
+            screen =
+              Add_new_report
+                {
+                  in_progress_report with
+                  amortization = Amortization_chosen amortization;
+                };
+          }
+      | _ -> state)
+  | Save_report report_results -> (
+      match state.screen with
+      | Add_new_report in_progress_report -> (
+          match
+            (in_progress_report.mortgage, in_progress_report.amortization)
+          with
+          | Mortgage_chosen mortgage, Amortization_chosen amortization ->
+              let report : Report.t =
+                { mortgage; amortization; results = report_results }
+              in
+              {
+                screen = Home;
+                session =
+                  {
+                    reports =
+                      (* Don't add reports if there is another one like it.
+                         Don't compare report results since they are derived from
+                         the other two parameters. *)
+                      (if
+                         List.exists
+                           (fun (report : Report.t) ->
+                             amortization == report.amortization
+                             && mortgage == report.mortgage)
+                           state.session.reports
+                       then state.session.reports
+                       else
+                         report :: state.session.reports
+                         |> List.sort Report.compare);
+                    mortgages =
+                      (* Don't add mortgage if there is another one like it *)
+                      (if List.exists (( = ) mortgage) state.session.mortgages
+                       then state.session.mortgages
+                       else mortgage :: state.session.mortgages);
+                  };
+              }
+          | _ -> state)
+      | _ -> state)
+  | Download_session ->
+      Session.download_file state.session "session.json";
+      print_endline "Session saved";
+      state
+  | Load_session -> (
+      let session = Session.load_file "session.json" in
+      match session with
+      | Ok session -> { state with session }
+      | Error e ->
+          print_endline e;
+          state)
+  | Open_report_detail report -> { state with screen = View_report report }
+
+let main_menu =
+  [
+    (I18n.labels.home, Navigate_to_home);
+    (I18n.labels.new_report, Navigate_to_new_report);
+    (I18n.labels.download_session, Download_session);
+    (I18n.labels.load_session, Load_session);
+  ]
+
+let rec menu (items : (string * 'a) list) : 'a =
+  List.iteri
+    (fun i (label, _) -> print_endline (string_of_int (i + 1) ^ ". " ^ label))
+    items;
+  try
+    print_string "> ";
+    let choice = read_line () in
+    let choice = int_of_string choice in
+    let label, action = List.nth items (choice - 1) in
+    Printf.printf "Selected \"%s\"\n" label;
+    action
+  with Failure _ ->
+    print_endline "Invalid choice";
+    menu items
 
 let render (state : state) : action option =
-  match state.page with
+  match state.screen with
   | Home ->
       print_endline "Home";
-      None
-  | AddNewReport _ ->
+      Some (menu main_menu)
+  | Add_new_report _ ->
       print_endline "Add new report";
       None
-  | ViewReport _ ->
+  | View_report _ ->
       print_endline "View report";
       None
 
