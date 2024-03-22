@@ -205,10 +205,10 @@ let rec menu (items : (string * 'a) list) : 'a =
     let choice = read_line () in
     let choice = int_of_string choice in
     let label, action = List.nth items (choice - 1) in
-    Printf.printf "Selected \"%s\"\n" label;
+    Printf.printf "Selected \"%s\"\n\n" label;
     action
   with Failure _ ->
-    print_endline "Invalid choice";
+    print_endline "Invalid choice\n";
     menu items
 
 let render (state : state) : action option =
