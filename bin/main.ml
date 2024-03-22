@@ -196,26 +196,23 @@ let main_menu =
     (I18n.labels.load_session, Load_session);
   ]
 
-let rec menu (items : (string * 'a) list) : 'a =
-  List.iteri
-    (fun i (label, _) -> print_endline (string_of_int (i + 1) ^ ". " ^ label))
-    items;
-  try
-    print_string "> ";
-    let choice = read_line () in
-    let choice = int_of_string choice in
-    let label, action = List.nth items (choice - 1) in
-    Printf.printf "Selected \"%s\"\n\n" label;
-    action
-  with Failure _ ->
-    print_endline "Invalid choice\n";
-    menu items
+let view_reports (reports : Report.t list) =
+  if reports = [] then print_endline I18n.labels.no_reports_saved
+  else
+    List.iter
+      (fun (report : Report.t) ->
+        print_endline "================";
+        Report.print report;
+        print_endline "")
+      reports
 
 let render (state : state) : action option =
   match state.screen with
   | Home ->
       print_endline "Home";
-      Some (menu main_menu)
+      print_endline "====\n";
+      view_reports state.session.reports;
+      Some (Cli.menu main_menu)
   | Add_new_report _ ->
       print_endline "Add new report";
       None
