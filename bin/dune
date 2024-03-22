@@ -1,4 +1,7 @@
 (executable
  (public_name mortgage_simulator)
  (name main)
- (libraries mortgage_simulator))
+ (libraries mortgage_simulator)
+ (flags
+  ; Disable unused constructor rule while in progress
+  (-w -37)))
