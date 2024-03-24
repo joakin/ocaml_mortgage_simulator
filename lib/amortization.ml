@@ -15,3 +15,4 @@ let decode json =
   with exn -> Error (Printexc.to_string exn)
 
 let compare (Yearly y1) (Yearly y2) = compare y1 y2
+let format (Yearly y) = I18n.labels.format_currency y

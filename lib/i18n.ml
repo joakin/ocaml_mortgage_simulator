@@ -42,6 +42,7 @@ type labels = {
   load_session : string;
   view : string;
   no_reports_saved : string;
+  continue : string;
 }
 
 let labels : labels =
@@ -87,4 +88,5 @@ let labels : labels =
     load_session = "Cargar sesión";
     view = "Ver";
     no_reports_saved = "No hay casos guardados";
+    continue = "Continuar";
   }
