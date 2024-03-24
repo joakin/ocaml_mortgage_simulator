@@ -142,14 +142,6 @@ let heading ?sep title =
   heading_separator ?sep title;
   print_endline ""
 
-let main_menu =
-  [
-    (I18n.labels.home, Navigate_to_home);
-    (I18n.labels.new_report, Navigate_to_new_report);
-    (I18n.labels.download_session, Download_session);
-    (I18n.labels.load_session, Load_session);
-  ]
-
 let view_mortgage (mortgage : Mortgage.t) =
   Cli.key_value mortgage
     [
@@ -202,6 +194,36 @@ let view_reports (reports : Report.t list) =
           fun (report : Report.t) ->
             I18n.labels.format_currency report.results.monthly_payment.rest );
       ]
+
+let view_report_results (results : Report_results.t) =
+  Cli.key_value results
+    [
+      ( I18n.labels.total_expenses_and_interests,
+        fun (results : Report_results.t) ->
+          I18n.labels.format_currency results.total_expenses_and_interests );
+      ( I18n.labels.payed_in,
+        fun (results : Report_results.t) ->
+          I18n.labels.format_years results.finishes_paying_in );
+      ( I18n.labels.monthly_payment_first_year,
+        fun (results : Report_results.t) ->
+          I18n.labels.format_currency results.monthly_payment.first );
+      ( I18n.labels.monthly_payment_rest,
+        fun (results : Report_results.t) ->
+          I18n.labels.format_currency results.monthly_payment.rest );
+    ]
+
+let view_amortization (Amortization.Yearly a) =
+  Cli.key_value a
+    [ (I18n.labels.amortize_every_year, I18n.labels.format_currency) ]
+
+let view_report (mortgage : Mortgage.t) (amortization : Amortization.t)
+    (results : Report_results.t) =
+  view_mortgage mortgage;
+  print_endline "";
+  view_amortization amortization;
+  print_endline "";
+  view_report_results results;
+  print_endline ""
 
 let view_in_progress_report (saved_mortgages : Mortgage.t list)
     (in_progress_report : report_in_progress) : action =
@@ -278,20 +300,16 @@ let view_in_progress_report (saved_mortgages : Mortgage.t list)
           print_endline "Invalid amortization";
           New_amortization)
   | Amortization_chosen (mortgage, (Amortization.Yearly a as amortization)) ->
-      view_mortgage mortgage;
-      print_endline "";
-      Cli.key_value a
-        [ (I18n.labels.amortize_every_year, I18n.labels.format_currency) ];
-      print_endline "";
-      let report_results =
+      let results =
         Report_results.calculate_report_results mortgage amortization
       in
-      (* TODO: View report results *)
+      view_report mortgage amortization results;
       Cli.menu
         [
           (I18n.labels.edit_amortization, New_amortization);
           (I18n.labels.change_mortgage, Edit_mortgage mortgage);
-          (I18n.labels.save_report, Save_report report_results);
+          (I18n.labels.save_report, Save_report results);
+          (I18n.labels.home, Navigate_to_home);
         ]
 
 let render (state : state) : action option =
@@ -303,13 +321,36 @@ let render (state : state) : action option =
   | Home ->
       heading I18n.labels.home;
       view_reports state.session.reports;
-      Some (Cli.menu main_menu)
+
+      let main_menu =
+        [
+          (I18n.labels.home, fun _ -> Navigate_to_home);
+          (I18n.labels.new_report, fun _ -> Navigate_to_new_report);
+          ( I18n.labels.view_report_results,
+            fun _ ->
+              match
+                Cli.prompt I18n.labels.choose_report_to_view
+                |> float_of_string_opt
+              with
+              | None -> Navigate_to_home
+              | Some n -> (
+                  try
+                    Open_report_detail
+                      (List.nth state.session.reports (int_of_float n - 1))
+                  with _ -> Navigate_to_home) );
+          (I18n.labels.download_session, fun _ -> Download_session);
+          (I18n.labels.load_session, fun _ -> Load_session);
+        ]
+      in
+      Some ((Cli.menu main_menu) ())
   | Add_new_report in_progress_report ->
       heading I18n.labels.new_report;
       Some (view_in_progress_report state.session.mortgages in_progress_report)
-  | View_report _ ->
+  | View_report report ->
       heading I18n.labels.report_results;
-      None
+      view_report report.mortgage report.amortization report.results;
+      Cli.prompt I18n.labels.back ~default:"Enter" |> ignore;
+      Some Navigate_to_home
 
 let run () =
   let state = init () in

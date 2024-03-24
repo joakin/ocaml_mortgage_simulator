@@ -41,8 +41,10 @@ type labels = {
   download_session : string;
   load_session : string;
   view : string;
+  view_report_results : string;
   no_reports_saved : string;
   continue : string;
+  choose_report_to_view : string;
 }
 
 let labels : labels =
@@ -87,6 +89,8 @@ let labels : labels =
     download_session = "Guardar sesión";
     load_session = "Cargar sesión";
     view = "Ver";
+    view_report_results = "Ver informe de hipoteca";
     no_reports_saved = "No hay casos guardados";
     continue = "Continuar";
+    choose_report_to_view = "Escoge un informe para ver";
   }

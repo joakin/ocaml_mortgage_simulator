@@ -30,7 +30,7 @@ let key_value_list (items : 'a list) ?(separator = "")
     (fun i item ->
       List.iteri
         (fun j (label, field) ->
-          if j = 0 then Printf.printf "%i. %s: %s\n" i label (field item)
+          if j = 0 then Printf.printf "%i. %s: %s\n" (i + 1) label (field item)
           else Printf.printf "   %s: %s\n" label (field item))
         fields;
       Printf.printf "%s\n\n" separator)
