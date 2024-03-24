@@ -1,0 +1,2971 @@
+{
+  "mortgages": [
+    {
+      "bank": "Caixa",
+      "rate": { "first": 1.0, "rest": 1.0 },
+      "extraExpenses": 0.0,
+      "amount": 100000.0,
+      "years": 20.0
+    }
+  ],
+  "reports": [
+    {
+      "mortgage": {
+        "bank": "Caixa",
+        "rate": { "first": 1.0, "rest": 1.0 },
+        "extraExpenses": 0.0,
+        "amount": 100000.0,
+        "years": 20.0
+      },
+      "amortization": { "kind": "Yearly", "value": 0.0 },
+      "results": {
+        "monthly_payment": {
+          "first": 459.89430695784245,
+          "rest": 459.89430695784245
+        },
+        "finishes_paying_in": 20.0,
+        "total_interests": 10374.633669870007,
+        "total_expenses_and_interests": 10374.633669870007,
+        "records": [
+          {
+            "year": 1,
+            "month": 1,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 83.33333333333334,
+            "amortized": 376.5609736245091,
+            "extraAmortization": 0.0,
+            "remainingLoan": 99623.43902637549
+          },
+          {
+            "year": 1,
+            "month": 2,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 83.01953252197958,
+            "amortized": 376.87477443586283,
+            "extraAmortization": 0.0,
+            "remainingLoan": 99246.56425193962
+          },
+          {
+            "year": 1,
+            "month": 3,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 82.7054702099497,
+            "amortized": 377.18883674789276,
+            "extraAmortization": 0.0,
+            "remainingLoan": 98869.37541519172
+          },
+          {
+            "year": 1,
+            "month": 4,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 82.39114617932644,
+            "amortized": 377.503160778516,
+            "extraAmortization": 0.0,
+            "remainingLoan": 98491.8722544132
+          },
+          {
+            "year": 1,
+            "month": 5,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 82.076560212011,
+            "amortized": 377.8177467458314,
+            "extraAmortization": 0.0,
+            "remainingLoan": 98114.05450766737
+          },
+          {
+            "year": 1,
+            "month": 6,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 81.76171208972282,
+            "amortized": 378.1325948681196,
+            "extraAmortization": 0.0,
+            "remainingLoan": 97735.92191279925
+          },
+          {
+            "year": 1,
+            "month": 7,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 81.44660159399939,
+            "amortized": 378.44770536384306,
+            "extraAmortization": 0.0,
+            "remainingLoan": 97357.47420743541
+          },
+          {
+            "year": 1,
+            "month": 8,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 81.13122850619618,
+            "amortized": 378.76307845164627,
+            "extraAmortization": 0.0,
+            "remainingLoan": 96978.71112898376
+          },
+          {
+            "year": 1,
+            "month": 9,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 80.81559260748648,
+            "amortized": 379.078714350356,
+            "extraAmortization": 0.0,
+            "remainingLoan": 96599.63241463341
+          },
+          {
+            "year": 1,
+            "month": 10,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 80.49969367886118,
+            "amortized": 379.3946132789813,
+            "extraAmortization": 0.0,
+            "remainingLoan": 96220.23780135442
+          },
+          {
+            "year": 1,
+            "month": 11,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 80.18353150112868,
+            "amortized": 379.71077545671375,
+            "extraAmortization": 0.0,
+            "remainingLoan": 95840.52702589771
+          },
+          {
+            "year": 1,
+            "month": 12,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 79.86710585491477,
+            "amortized": 380.0272011029277,
+            "extraAmortization": 0.0,
+            "remainingLoan": 95460.49982479478
+          },
+          {
+            "year": 2,
+            "month": 13,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 79.55041652066232,
+            "amortized": 380.3438904371801,
+            "extraAmortization": 0.0,
+            "remainingLoan": 95080.15593435759
+          },
+          {
+            "year": 2,
+            "month": 14,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 79.23346327863133,
+            "amortized": 380.6608436792111,
+            "extraAmortization": 0.0,
+            "remainingLoan": 94699.49509067838
+          },
+          {
+            "year": 2,
+            "month": 15,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 78.91624590889866,
+            "amortized": 380.9780610489438,
+            "extraAmortization": 0.0,
+            "remainingLoan": 94318.51702962944
+          },
+          {
+            "year": 2,
+            "month": 16,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 78.59876419135787,
+            "amortized": 381.2955427664846,
+            "extraAmortization": 0.0,
+            "remainingLoan": 93937.22148686295
+          },
+          {
+            "year": 2,
+            "month": 17,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 78.28101790571914,
+            "amortized": 381.6132890521233,
+            "extraAmortization": 0.0,
+            "remainingLoan": 93555.60819781083
+          },
+          {
+            "year": 2,
+            "month": 18,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 77.96300683150903,
+            "amortized": 381.93130012633344,
+            "extraAmortization": 0.0,
+            "remainingLoan": 93173.67689768449
+          },
+          {
+            "year": 2,
+            "month": 19,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 77.64473074807042,
+            "amortized": 382.24957620977204,
+            "extraAmortization": 0.0,
+            "remainingLoan": 92791.42732147472
+          },
+          {
+            "year": 2,
+            "month": 20,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 77.32618943456228,
+            "amortized": 382.5681175232802,
+            "extraAmortization": 0.0,
+            "remainingLoan": 92408.85920395145
+          },
+          {
+            "year": 2,
+            "month": 21,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 77.00738266995954,
+            "amortized": 382.8869242878829,
+            "extraAmortization": 0.0,
+            "remainingLoan": 92025.97227966356
+          },
+          {
+            "year": 2,
+            "month": 22,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 76.68831023305297,
+            "amortized": 383.2059967247895,
+            "extraAmortization": 0.0,
+            "remainingLoan": 91642.76628293877
+          },
+          {
+            "year": 2,
+            "month": 23,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 76.36897190244898,
+            "amortized": 383.5253350553935,
+            "extraAmortization": 0.0,
+            "remainingLoan": 91259.24094788337
+          },
+          {
+            "year": 2,
+            "month": 24,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 76.04936745656948,
+            "amortized": 383.84493950127296,
+            "extraAmortization": 0.0,
+            "remainingLoan": 90875.3960083821
+          },
+          {
+            "year": 3,
+            "month": 25,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 75.72949667365175,
+            "amortized": 384.1648102841907,
+            "extraAmortization": 0.0,
+            "remainingLoan": 90491.23119809791
+          },
+          {
+            "year": 3,
+            "month": 26,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 75.40935933174826,
+            "amortized": 384.4849476260942,
+            "extraAmortization": 0.0,
+            "remainingLoan": 90106.74625047181
+          },
+          {
+            "year": 3,
+            "month": 27,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 75.08895520872652,
+            "amortized": 384.8053517491159,
+            "extraAmortization": 0.0,
+            "remainingLoan": 89721.94089872269
+          },
+          {
+            "year": 3,
+            "month": 28,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 74.76828408226892,
+            "amortized": 385.12602287557354,
+            "extraAmortization": 0.0,
+            "remainingLoan": 89336.81487584712
+          },
+          {
+            "year": 3,
+            "month": 29,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 74.44734572987261,
+            "amortized": 385.44696122796984,
+            "extraAmortization": 0.0,
+            "remainingLoan": 88951.36791461916
+          },
+          {
+            "year": 3,
+            "month": 30,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 74.1261399288493,
+            "amortized": 385.76816702899316,
+            "extraAmortization": 0.0,
+            "remainingLoan": 88565.59974759017
+          },
+          {
+            "year": 3,
+            "month": 31,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 73.80466645632515,
+            "amortized": 386.0896405015173,
+            "extraAmortization": 0.0,
+            "remainingLoan": 88179.51010708864
+          },
+          {
+            "year": 3,
+            "month": 32,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 73.48292508924054,
+            "amortized": 386.4113818686019,
+            "extraAmortization": 0.0,
+            "remainingLoan": 87793.09872522004
+          },
+          {
+            "year": 3,
+            "month": 33,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 73.16091560435004,
+            "amortized": 386.7333913534924,
+            "extraAmortization": 0.0,
+            "remainingLoan": 87406.36533386655
+          },
+          {
+            "year": 3,
+            "month": 34,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 72.83863777822212,
+            "amortized": 387.05566917962034,
+            "extraAmortization": 0.0,
+            "remainingLoan": 87019.30966468692
+          },
+          {
+            "year": 3,
+            "month": 35,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 72.5160913872391,
+            "amortized": 387.37821557060334,
+            "extraAmortization": 0.0,
+            "remainingLoan": 86631.93144911632
+          },
+          {
+            "year": 3,
+            "month": 36,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 72.19327620759694,
+            "amortized": 387.70103075024554,
+            "extraAmortization": 0.0,
+            "remainingLoan": 86244.23041836607
+          },
+          {
+            "year": 4,
+            "month": 37,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 71.87019201530507,
+            "amortized": 388.0241149425374,
+            "extraAmortization": 0.0,
+            "remainingLoan": 85856.20630342353
+          },
+          {
+            "year": 4,
+            "month": 38,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 71.54683858618628,
+            "amortized": 388.3474683716562,
+            "extraAmortization": 0.0,
+            "remainingLoan": 85467.85883505187
+          },
+          {
+            "year": 4,
+            "month": 39,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 71.22321569587656,
+            "amortized": 388.6710912619659,
+            "extraAmortization": 0.0,
+            "remainingLoan": 85079.18774378991
+          },
+          {
+            "year": 4,
+            "month": 40,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 70.89932311982493,
+            "amortized": 388.9949838380175,
+            "extraAmortization": 0.0,
+            "remainingLoan": 84690.1927599519
+          },
+          {
+            "year": 4,
+            "month": 41,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 70.57516063329325,
+            "amortized": 389.3191463245492,
+            "extraAmortization": 0.0,
+            "remainingLoan": 84300.87361362735
+          },
+          {
+            "year": 4,
+            "month": 42,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 70.25072801135613,
+            "amortized": 389.6435789464863,
+            "extraAmortization": 0.0,
+            "remainingLoan": 83911.23003468086
+          },
+          {
+            "year": 4,
+            "month": 43,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 69.92602502890072,
+            "amortized": 389.96828192894174,
+            "extraAmortization": 0.0,
+            "remainingLoan": 83521.26175275192
+          },
+          {
+            "year": 4,
+            "month": 44,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 69.60105146062661,
+            "amortized": 390.29325549721585,
+            "extraAmortization": 0.0,
+            "remainingLoan": 83130.9684972547
+          },
+          {
+            "year": 4,
+            "month": 45,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 69.27580708104558,
+            "amortized": 390.6184998767969,
+            "extraAmortization": 0.0,
+            "remainingLoan": 82740.3499973779
+          },
+          {
+            "year": 4,
+            "month": 46,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 68.95029166448158,
+            "amortized": 390.94401529336085,
+            "extraAmortization": 0.0,
+            "remainingLoan": 82349.40598208453
+          },
+          {
+            "year": 4,
+            "month": 47,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 68.62450498507044,
+            "amortized": 391.26980197277203,
+            "extraAmortization": 0.0,
+            "remainingLoan": 81958.13618011176
+          },
+          {
+            "year": 4,
+            "month": 48,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 68.29844681675981,
+            "amortized": 391.59586014108265,
+            "extraAmortization": 0.0,
+            "remainingLoan": 81566.54031997068
+          },
+          {
+            "year": 5,
+            "month": 49,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 67.9721169333089,
+            "amortized": 391.92219002453356,
+            "extraAmortization": 0.0,
+            "remainingLoan": 81174.61812994615
+          },
+          {
+            "year": 5,
+            "month": 50,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 67.64551510828846,
+            "amortized": 392.248791849554,
+            "extraAmortization": 0.0,
+            "remainingLoan": 80782.36933809659
+          },
+          {
+            "year": 5,
+            "month": 51,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 67.3186411150805,
+            "amortized": 392.57566584276196,
+            "extraAmortization": 0.0,
+            "remainingLoan": 80389.79367225383
+          },
+          {
+            "year": 5,
+            "month": 52,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 66.9914947268782,
+            "amortized": 392.90281223096423,
+            "extraAmortization": 0.0,
+            "remainingLoan": 79996.89086002286
+          },
+          {
+            "year": 5,
+            "month": 53,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 66.66407571668572,
+            "amortized": 393.23023124115673,
+            "extraAmortization": 0.0,
+            "remainingLoan": 79603.6606287817
+          },
+          {
+            "year": 5,
+            "month": 54,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 66.33638385731808,
+            "amortized": 393.55792310052436,
+            "extraAmortization": 0.0,
+            "remainingLoan": 79210.10270568117
+          },
+          {
+            "year": 5,
+            "month": 55,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 66.00841892140099,
+            "amortized": 393.88588803644143,
+            "extraAmortization": 0.0,
+            "remainingLoan": 78816.21681764473
+          },
+          {
+            "year": 5,
+            "month": 56,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 65.68018068137062,
+            "amortized": 394.2141262764718,
+            "extraAmortization": 0.0,
+            "remainingLoan": 78422.00269136825
+          },
+          {
+            "year": 5,
+            "month": 57,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 65.35166890947355,
+            "amortized": 394.5426380483689,
+            "extraAmortization": 0.0,
+            "remainingLoan": 78027.46005331988
+          },
+          {
+            "year": 5,
+            "month": 58,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 65.02288337776658,
+            "amortized": 394.8714235800759,
+            "extraAmortization": 0.0,
+            "remainingLoan": 77632.58862973981
+          },
+          {
+            "year": 5,
+            "month": 59,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 64.69382385811652,
+            "amortized": 395.20048309972594,
+            "extraAmortization": 0.0,
+            "remainingLoan": 77237.38814664008
+          },
+          {
+            "year": 5,
+            "month": 60,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 64.36449012220007,
+            "amortized": 395.52981683564235,
+            "extraAmortization": 0.0,
+            "remainingLoan": 76841.85832980444
+          },
+          {
+            "year": 6,
+            "month": 61,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 64.0348819415037,
+            "amortized": 395.8594250163387,
+            "extraAmortization": 0.0,
+            "remainingLoan": 76445.9989047881
+          },
+          {
+            "year": 6,
+            "month": 62,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 63.704999087323415,
+            "amortized": 396.18930787051903,
+            "extraAmortization": 0.0,
+            "remainingLoan": 76049.80959691758
+          },
+          {
+            "year": 6,
+            "month": 63,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 63.37484133076465,
+            "amortized": 396.5194656270778,
+            "extraAmortization": 0.0,
+            "remainingLoan": 75653.2901312905
+          },
+          {
+            "year": 6,
+            "month": 64,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 63.04440844274209,
+            "amortized": 396.84989851510034,
+            "extraAmortization": 0.0,
+            "remainingLoan": 75256.44023277541
+          },
+          {
+            "year": 6,
+            "month": 65,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 62.71370019397951,
+            "amortized": 397.18060676386295,
+            "extraAmortization": 0.0,
+            "remainingLoan": 74859.25962601154
+          },
+          {
+            "year": 6,
+            "month": 66,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 62.38271635500962,
+            "amortized": 397.5115906028328,
+            "extraAmortization": 0.0,
+            "remainingLoan": 74461.7480354087
+          },
+          {
+            "year": 6,
+            "month": 67,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 62.05145669617392,
+            "amortized": 397.8428502616685,
+            "extraAmortization": 0.0,
+            "remainingLoan": 74063.90518514703
+          },
+          {
+            "year": 6,
+            "month": 68,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 61.71992098762253,
+            "amortized": 398.17438597021993,
+            "extraAmortization": 0.0,
+            "remainingLoan": 73665.7307991768
+          },
+          {
+            "year": 6,
+            "month": 69,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 61.38810899931401,
+            "amortized": 398.50619795852845,
+            "extraAmortization": 0.0,
+            "remainingLoan": 73267.22460121827
+          },
+          {
+            "year": 6,
+            "month": 70,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 61.05602050101523,
+            "amortized": 398.83828645682723,
+            "extraAmortization": 0.0,
+            "remainingLoan": 72868.38631476145
+          },
+          {
+            "year": 6,
+            "month": 71,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 60.72365526230121,
+            "amortized": 399.1706516955412,
+            "extraAmortization": 0.0,
+            "remainingLoan": 72469.2156630659
+          },
+          {
+            "year": 6,
+            "month": 72,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 60.391013052554925,
+            "amortized": 399.50329390528753,
+            "extraAmortization": 0.0,
+            "remainingLoan": 72069.71236916061
+          },
+          {
+            "year": 7,
+            "month": 73,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 60.05809364096718,
+            "amortized": 399.8362133168753,
+            "extraAmortization": 0.0,
+            "remainingLoan": 71669.87615584374
+          },
+          {
+            "year": 7,
+            "month": 74,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 59.724896796536456,
+            "amortized": 400.169410161306,
+            "extraAmortization": 0.0,
+            "remainingLoan": 71269.70674568243
+          },
+          {
+            "year": 7,
+            "month": 75,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 59.391422288068696,
+            "amortized": 400.5028846697737,
+            "extraAmortization": 0.0,
+            "remainingLoan": 70869.20386101266
+          },
+          {
+            "year": 7,
+            "month": 76,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 59.05766988417722,
+            "amortized": 400.8366370736652,
+            "extraAmortization": 0.0,
+            "remainingLoan": 70468.367223939
+          },
+          {
+            "year": 7,
+            "month": 77,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 58.7236393532825,
+            "amortized": 401.1706676045599,
+            "extraAmortization": 0.0,
+            "remainingLoan": 70067.19655633444
+          },
+          {
+            "year": 7,
+            "month": 78,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 58.38933046361204,
+            "amortized": 401.5049764942304,
+            "extraAmortization": 0.0,
+            "remainingLoan": 69665.69157984022
+          },
+          {
+            "year": 7,
+            "month": 79,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 58.054742983200185,
+            "amortized": 401.83956397464226,
+            "extraAmortization": 0.0,
+            "remainingLoan": 69263.85201586557
+          },
+          {
+            "year": 7,
+            "month": 80,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 57.71987667988798,
+            "amortized": 402.17443027795446,
+            "extraAmortization": 0.0,
+            "remainingLoan": 68861.67758558762
+          },
+          {
+            "year": 7,
+            "month": 81,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 57.38473132132302,
+            "amortized": 402.50957563651946,
+            "extraAmortization": 0.0,
+            "remainingLoan": 68459.1680099511
+          },
+          {
+            "year": 7,
+            "month": 82,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 57.049306674959254,
+            "amortized": 402.8450002828832,
+            "extraAmortization": 0.0,
+            "remainingLoan": 68056.32300966821
+          },
+          {
+            "year": 7,
+            "month": 83,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 56.713602508056844,
+            "amortized": 403.1807044497856,
+            "extraAmortization": 0.0,
+            "remainingLoan": 67653.14230521843
+          },
+          {
+            "year": 7,
+            "month": 84,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 56.37761858768202,
+            "amortized": 403.5166883701604,
+            "extraAmortization": 0.0,
+            "remainingLoan": 67249.62561684827
+          },
+          {
+            "year": 8,
+            "month": 85,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 56.04135468070689,
+            "amortized": 403.85295227713556,
+            "extraAmortization": 0.0,
+            "remainingLoan": 66845.77266457112
+          },
+          {
+            "year": 8,
+            "month": 86,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 55.704810553809274,
+            "amortized": 404.18949640403315,
+            "extraAmortization": 0.0,
+            "remainingLoan": 66441.58316816708
+          },
+          {
+            "year": 8,
+            "month": 87,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 55.36798597347257,
+            "amortized": 404.5263209843699,
+            "extraAmortization": 0.0,
+            "remainingLoan": 66037.05684718271
+          },
+          {
+            "year": 8,
+            "month": 88,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 55.030880705985595,
+            "amortized": 404.8634262518568,
+            "extraAmortization": 0.0,
+            "remainingLoan": 65632.19342093085
+          },
+          {
+            "year": 8,
+            "month": 89,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 54.69349451744238,
+            "amortized": 405.20081244040006,
+            "extraAmortization": 0.0,
+            "remainingLoan": 65226.99260849045
+          },
+          {
+            "year": 8,
+            "month": 90,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 54.35582717374204,
+            "amortized": 405.5384797841004,
+            "extraAmortization": 0.0,
+            "remainingLoan": 64821.45412870635
+          },
+          {
+            "year": 8,
+            "month": 91,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 54.017878440588625,
+            "amortized": 405.8764285172538,
+            "extraAmortization": 0.0,
+            "remainingLoan": 64415.5777001891
+          },
+          {
+            "year": 8,
+            "month": 92,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 53.67964808349092,
+            "amortized": 406.2146588743515,
+            "extraAmortization": 0.0,
+            "remainingLoan": 64009.36304131475
+          },
+          {
+            "year": 8,
+            "month": 93,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 53.34113586776229,
+            "amortized": 406.5531710900801,
+            "extraAmortization": 0.0,
+            "remainingLoan": 63602.809870224664
+          },
+          {
+            "year": 8,
+            "month": 94,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 53.002341558520556,
+            "amortized": 406.89196539932186,
+            "extraAmortization": 0.0,
+            "remainingLoan": 63195.91790482534
+          },
+          {
+            "year": 8,
+            "month": 95,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 52.66326492068779,
+            "amortized": 407.2310420371547,
+            "extraAmortization": 0.0,
+            "remainingLoan": 62788.686862788185
+          },
+          {
+            "year": 8,
+            "month": 96,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 52.323905718990154,
+            "amortized": 407.5704012388523,
+            "extraAmortization": 0.0,
+            "remainingLoan": 62381.11646154933
+          },
+          {
+            "year": 9,
+            "month": 97,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 51.98426371795778,
+            "amortized": 407.91004323988466,
+            "extraAmortization": 0.0,
+            "remainingLoan": 61973.20641830945
+          },
+          {
+            "year": 9,
+            "month": 98,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 51.644338681924545,
+            "amortized": 408.2499682759179,
+            "extraAmortization": 0.0,
+            "remainingLoan": 61564.95645003353
+          },
+          {
+            "year": 9,
+            "month": 99,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 51.304130375027945,
+            "amortized": 408.5901765828145,
+            "extraAmortization": 0.0,
+            "remainingLoan": 61156.366273450716
+          },
+          {
+            "year": 9,
+            "month": 100,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 50.96363856120893,
+            "amortized": 408.9306683966335,
+            "extraAmortization": 0.0,
+            "remainingLoan": 60747.43560505408
+          },
+          {
+            "year": 9,
+            "month": 101,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 50.62286300421174,
+            "amortized": 409.2714439536307,
+            "extraAmortization": 0.0,
+            "remainingLoan": 60338.16416110045
+          },
+          {
+            "year": 9,
+            "month": 102,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 50.281803467583714,
+            "amortized": 409.61250349025875,
+            "extraAmortization": 0.0,
+            "remainingLoan": 59928.551657610195
+          },
+          {
+            "year": 9,
+            "month": 103,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 49.940459714675164,
+            "amortized": 409.9538472431673,
+            "extraAmortization": 0.0,
+            "remainingLoan": 59518.59781036703
+          },
+          {
+            "year": 9,
+            "month": 104,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 49.59883150863919,
+            "amortized": 410.29547544920325,
+            "extraAmortization": 0.0,
+            "remainingLoan": 59108.302334917826
+          },
+          {
+            "year": 9,
+            "month": 105,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 49.25691861243153,
+            "amortized": 410.6373883454109,
+            "extraAmortization": 0.0,
+            "remainingLoan": 58697.66494657241
+          },
+          {
+            "year": 9,
+            "month": 106,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 48.91472078881034,
+            "amortized": 410.97958616903213,
+            "extraAmortization": 0.0,
+            "remainingLoan": 58286.68536040338
+          },
+          {
+            "year": 9,
+            "month": 107,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 48.572237800336154,
+            "amortized": 411.3220691575063,
+            "extraAmortization": 0.0,
+            "remainingLoan": 57875.36329124588
+          },
+          {
+            "year": 9,
+            "month": 108,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 48.22946940937157,
+            "amortized": 411.66483754847087,
+            "extraAmortization": 0.0,
+            "remainingLoan": 57463.698453697405
+          },
+          {
+            "year": 10,
+            "month": 109,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 47.886415378081175,
+            "amortized": 412.0078915797613,
+            "extraAmortization": 0.0,
+            "remainingLoan": 57051.69056211764
+          },
+          {
+            "year": 10,
+            "month": 110,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 47.54307546843137,
+            "amortized": 412.3512314894111,
+            "extraAmortization": 0.0,
+            "remainingLoan": 56639.33933062823
+          },
+          {
+            "year": 10,
+            "month": 111,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 47.19944944219019,
+            "amortized": 412.69485751565225,
+            "extraAmortization": 0.0,
+            "remainingLoan": 56226.64447311258
+          },
+          {
+            "year": 10,
+            "month": 112,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 46.855537060927155,
+            "amortized": 413.0387698969153,
+            "extraAmortization": 0.0,
+            "remainingLoan": 55813.60570321567
+          },
+          {
+            "year": 10,
+            "month": 113,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 46.51133808601306,
+            "amortized": 413.3829688718294,
+            "extraAmortization": 0.0,
+            "remainingLoan": 55400.222734343835
+          },
+          {
+            "year": 10,
+            "month": 114,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 46.166852278619864,
+            "amortized": 413.7274546792226,
+            "extraAmortization": 0.0,
+            "remainingLoan": 54986.49527966461
+          },
+          {
+            "year": 10,
+            "month": 115,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 45.822079399720515,
+            "amortized": 414.07222755812194,
+            "extraAmortization": 0.0,
+            "remainingLoan": 54572.42305210649
+          },
+          {
+            "year": 10,
+            "month": 116,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 45.47701921008874,
+            "amortized": 414.4172877477537,
+            "extraAmortization": 0.0,
+            "remainingLoan": 54158.005764358735
+          },
+          {
+            "year": 10,
+            "month": 117,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 45.13167147029895,
+            "amortized": 414.7626354875435,
+            "extraAmortization": 0.0,
+            "remainingLoan": 53743.24312887119
+          },
+          {
+            "year": 10,
+            "month": 118,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 44.786035940725995,
+            "amortized": 415.10827101711646,
+            "extraAmortization": 0.0,
+            "remainingLoan": 53328.13485785407
+          },
+          {
+            "year": 10,
+            "month": 119,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 44.44011238154506,
+            "amortized": 415.45419457629737,
+            "extraAmortization": 0.0,
+            "remainingLoan": 52912.68066327777
+          },
+          {
+            "year": 10,
+            "month": 120,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 44.09390055273148,
+            "amortized": 415.80040640511095,
+            "extraAmortization": 0.0,
+            "remainingLoan": 52496.88025687266
+          },
+          {
+            "year": 11,
+            "month": 121,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 43.747400214060555,
+            "amortized": 416.14690674378187,
+            "extraAmortization": 0.0,
+            "remainingLoan": 52080.73335012888
+          },
+          {
+            "year": 11,
+            "month": 122,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 43.4006111251074,
+            "amortized": 416.49369583273506,
+            "extraAmortization": 0.0,
+            "remainingLoan": 51664.23965429614
+          },
+          {
+            "year": 11,
+            "month": 123,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 43.05353304524679,
+            "amortized": 416.84077391259564,
+            "extraAmortization": 0.0,
+            "remainingLoan": 51247.398880383545
+          },
+          {
+            "year": 11,
+            "month": 124,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 42.70616573365296,
+            "amortized": 417.1881412241895,
+            "extraAmortization": 0.0,
+            "remainingLoan": 50830.21073915935
+          },
+          {
+            "year": 11,
+            "month": 125,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 42.35850894929946,
+            "amortized": 417.535798008543,
+            "extraAmortization": 0.0,
+            "remainingLoan": 50412.674941150806
+          },
+          {
+            "year": 11,
+            "month": 126,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 42.01056245095901,
+            "amortized": 417.88374450688343,
+            "extraAmortization": 0.0,
+            "remainingLoan": 49994.79119664392
+          },
+          {
+            "year": 11,
+            "month": 127,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 41.66232599720327,
+            "amortized": 418.2319809606392,
+            "extraAmortization": 0.0,
+            "remainingLoan": 49576.55921568328
+          },
+          {
+            "year": 11,
+            "month": 128,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 41.31379934640273,
+            "amortized": 418.5805076114397,
+            "extraAmortization": 0.0,
+            "remainingLoan": 49157.97870807184
+          },
+          {
+            "year": 11,
+            "month": 129,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 40.964982256726536,
+            "amortized": 418.9293247011159,
+            "extraAmortization": 0.0,
+            "remainingLoan": 48739.04938337072
+          },
+          {
+            "year": 11,
+            "month": 130,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 40.615874486142275,
+            "amortized": 419.27843247170017,
+            "extraAmortization": 0.0,
+            "remainingLoan": 48319.77095089902
+          },
+          {
+            "year": 11,
+            "month": 131,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 40.266475792415854,
+            "amortized": 419.6278311654266,
+            "extraAmortization": 0.0,
+            "remainingLoan": 47900.1431197336
+          },
+          {
+            "year": 11,
+            "month": 132,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 39.916785933111335,
+            "amortized": 419.9775210247311,
+            "extraAmortization": 0.0,
+            "remainingLoan": 47480.16559870887
+          },
+          {
+            "year": 12,
+            "month": 133,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 39.56680466559072,
+            "amortized": 420.3275022922517,
+            "extraAmortization": 0.0,
+            "remainingLoan": 47059.83809641661
+          },
+          {
+            "year": 12,
+            "month": 134,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 39.216531747013846,
+            "amortized": 420.6777752108286,
+            "extraAmortization": 0.0,
+            "remainingLoan": 46639.16032120578
+          },
+          {
+            "year": 12,
+            "month": 135,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 38.865966934338154,
+            "amortized": 421.0283400235043,
+            "extraAmortization": 0.0,
+            "remainingLoan": 46218.131981182276
+          },
+          {
+            "year": 12,
+            "month": 136,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 38.51510998431856,
+            "amortized": 421.3791969735239,
+            "extraAmortization": 0.0,
+            "remainingLoan": 45796.75278420875
+          },
+          {
+            "year": 12,
+            "month": 137,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 38.163960653507296,
+            "amortized": 421.73034630433517,
+            "extraAmortization": 0.0,
+            "remainingLoan": 45375.022437904416
+          },
+          {
+            "year": 12,
+            "month": 138,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 37.81251869825368,
+            "amortized": 422.08178825958873,
+            "extraAmortization": 0.0,
+            "remainingLoan": 44952.94064964483
+          },
+          {
+            "year": 12,
+            "month": 139,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 37.46078387470403,
+            "amortized": 422.4335230831384,
+            "extraAmortization": 0.0,
+            "remainingLoan": 44530.507126561686
+          },
+          {
+            "year": 12,
+            "month": 140,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 37.10875593880141,
+            "amortized": 422.785551019041,
+            "extraAmortization": 0.0,
+            "remainingLoan": 44107.721575542644
+          },
+          {
+            "year": 12,
+            "month": 141,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 36.75643464628554,
+            "amortized": 423.1378723115569,
+            "extraAmortization": 0.0,
+            "remainingLoan": 43684.58370323109
+          },
+          {
+            "year": 12,
+            "month": 142,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 36.40381975269258,
+            "amortized": 423.49048720514986,
+            "extraAmortization": 0.0,
+            "remainingLoan": 43261.09321602594
+          },
+          {
+            "year": 12,
+            "month": 143,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 36.050911013354956,
+            "amortized": 423.8433959444875,
+            "extraAmortization": 0.0,
+            "remainingLoan": 42837.24982008145
+          },
+          {
+            "year": 12,
+            "month": 144,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 35.69770818340121,
+            "amortized": 424.1965987744412,
+            "extraAmortization": 0.0,
+            "remainingLoan": 42413.05322130701
+          },
+          {
+            "year": 13,
+            "month": 145,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 35.344211017755846,
+            "amortized": 424.5500959400866,
+            "extraAmortization": 0.0,
+            "remainingLoan": 41988.50312536692
+          },
+          {
+            "year": 13,
+            "month": 146,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 34.9904192711391,
+            "amortized": 424.90388768670334,
+            "extraAmortization": 0.0,
+            "remainingLoan": 41563.59923768022
+          },
+          {
+            "year": 13,
+            "month": 147,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 34.63633269806685,
+            "amortized": 425.2579742597756,
+            "extraAmortization": 0.0,
+            "remainingLoan": 41138.34126342044
+          },
+          {
+            "year": 13,
+            "month": 148,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 34.281951052850374,
+            "amortized": 425.61235590499206,
+            "extraAmortization": 0.0,
+            "remainingLoan": 40712.72890751545
+          },
+          {
+            "year": 13,
+            "month": 149,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 33.92727408959621,
+            "amortized": 425.96703286824624,
+            "extraAmortization": 0.0,
+            "remainingLoan": 40286.7618746472
+          },
+          {
+            "year": 13,
+            "month": 150,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 33.572301562206,
+            "amortized": 426.32200539563644,
+            "extraAmortization": 0.0,
+            "remainingLoan": 39860.43986925156
+          },
+          {
+            "year": 13,
+            "month": 151,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 33.2170332243763,
+            "amortized": 426.67727373346617,
+            "extraAmortization": 0.0,
+            "remainingLoan": 39433.76259551809
+          },
+          {
+            "year": 13,
+            "month": 152,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 32.861468829598415,
+            "amortized": 427.032838128244,
+            "extraAmortization": 0.0,
+            "remainingLoan": 39006.72975738985
+          },
+          {
+            "year": 13,
+            "month": 153,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 32.505608131158205,
+            "amortized": 427.3886988266842,
+            "extraAmortization": 0.0,
+            "remainingLoan": 38579.341058563165
+          },
+          {
+            "year": 13,
+            "month": 154,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 32.14945088213597,
+            "amortized": 427.7448560757065,
+            "extraAmortization": 0.0,
+            "remainingLoan": 38151.59620248746
+          },
+          {
+            "year": 13,
+            "month": 155,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 31.792996835406218,
+            "amortized": 428.10131012243625,
+            "extraAmortization": 0.0,
+            "remainingLoan": 37723.49489236502
+          },
+          {
+            "year": 13,
+            "month": 156,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 31.43624574363752,
+            "amortized": 428.4580612142049,
+            "extraAmortization": 0.0,
+            "remainingLoan": 37295.03683115082
+          },
+          {
+            "year": 14,
+            "month": 157,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 31.07919735929235,
+            "amortized": 428.81510959855007,
+            "extraAmortization": 0.0,
+            "remainingLoan": 36866.22172155227
+          },
+          {
+            "year": 14,
+            "month": 158,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 30.721851434626892,
+            "amortized": 429.17245552321555,
+            "extraAmortization": 0.0,
+            "remainingLoan": 36437.049266029055
+          },
+          {
+            "year": 14,
+            "month": 159,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 30.36420772169088,
+            "amortized": 429.53009923615156,
+            "extraAmortization": 0.0,
+            "remainingLoan": 36007.5191667929
+          },
+          {
+            "year": 14,
+            "month": 160,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 30.00626597232742,
+            "amortized": 429.88804098551503,
+            "extraAmortization": 0.0,
+            "remainingLoan": 35577.63112580739
+          },
+          {
+            "year": 14,
+            "month": 161,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 29.64802593817283,
+            "amortized": 430.2462810196696,
+            "extraAmortization": 0.0,
+            "remainingLoan": 35147.384844787724
+          },
+          {
+            "year": 14,
+            "month": 162,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 29.28948737065644,
+            "amortized": 430.604819587186,
+            "extraAmortization": 0.0,
+            "remainingLoan": 34716.78002520054
+          },
+          {
+            "year": 14,
+            "month": 163,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 28.930650021000453,
+            "amortized": 430.96365693684197,
+            "extraAmortization": 0.0,
+            "remainingLoan": 34285.816368263695
+          },
+          {
+            "year": 14,
+            "month": 164,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 28.57151364021975,
+            "amortized": 431.3227933176227,
+            "extraAmortization": 0.0,
+            "remainingLoan": 33854.49357494607
+          },
+          {
+            "year": 14,
+            "month": 165,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 28.212077979121727,
+            "amortized": 431.68222897872073,
+            "extraAmortization": 0.0,
+            "remainingLoan": 33422.81134596735
+          },
+          {
+            "year": 14,
+            "month": 166,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 27.852342788306125,
+            "amortized": 432.0419641695363,
+            "extraAmortization": 0.0,
+            "remainingLoan": 32990.769381797814
+          },
+          {
+            "year": 14,
+            "month": 167,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 27.492307818164846,
+            "amortized": 432.4019991396776,
+            "extraAmortization": 0.0,
+            "remainingLoan": 32558.367382658136
+          },
+          {
+            "year": 14,
+            "month": 168,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 27.13197281888178,
+            "amortized": 432.7623341389607,
+            "extraAmortization": 0.0,
+            "remainingLoan": 32125.605048519177
+          },
+          {
+            "year": 15,
+            "month": 169,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 26.77133754043265,
+            "amortized": 433.1229694174098,
+            "extraAmortization": 0.0,
+            "remainingLoan": 31692.482079101766
+          },
+          {
+            "year": 15,
+            "month": 170,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 26.410401732584806,
+            "amortized": 433.4839052252576,
+            "extraAmortization": 0.0,
+            "remainingLoan": 31258.99817387651
+          },
+          {
+            "year": 15,
+            "month": 171,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 26.049165144897092,
+            "amortized": 433.84514181294537,
+            "extraAmortization": 0.0,
+            "remainingLoan": 30825.153032063565
+          },
+          {
+            "year": 15,
+            "month": 172,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 25.687627526719638,
+            "amortized": 434.2066794311228,
+            "extraAmortization": 0.0,
+            "remainingLoan": 30390.946352632443
+          },
+          {
+            "year": 15,
+            "month": 173,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 25.325788627193706,
+            "amortized": 434.5685183306487,
+            "extraAmortization": 0.0,
+            "remainingLoan": 29956.377834301795
+          },
+          {
+            "year": 15,
+            "month": 174,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 24.963648195251498,
+            "amortized": 434.93065876259095,
+            "extraAmortization": 0.0,
+            "remainingLoan": 29521.447175539204
+          },
+          {
+            "year": 15,
+            "month": 175,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 24.601205979616005,
+            "amortized": 435.29310097822645,
+            "extraAmortization": 0.0,
+            "remainingLoan": 29086.15407456098
+          },
+          {
+            "year": 15,
+            "month": 176,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 24.238461728800818,
+            "amortized": 435.65584522904163,
+            "extraAmortization": 0.0,
+            "remainingLoan": 28650.498229331937
+          },
+          {
+            "year": 15,
+            "month": 177,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 23.875415191109948,
+            "amortized": 436.0188917667325,
+            "extraAmortization": 0.0,
+            "remainingLoan": 28214.479337565204
+          },
+          {
+            "year": 15,
+            "month": 178,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 23.512066114637673,
+            "amortized": 436.3822408432048,
+            "extraAmortization": 0.0,
+            "remainingLoan": 27778.097096722
+          },
+          {
+            "year": 15,
+            "month": 179,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 23.148414247268335,
+            "amortized": 436.74589271057414,
+            "extraAmortization": 0.0,
+            "remainingLoan": 27341.351204011426
+          },
+          {
+            "year": 15,
+            "month": 180,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 22.78445933667619,
+            "amortized": 437.10984762116624,
+            "extraAmortization": 0.0,
+            "remainingLoan": 26904.24135639026
+          },
+          {
+            "year": 16,
+            "month": 181,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 22.420201130325218,
+            "amortized": 437.47410582751723,
+            "extraAmortization": 0.0,
+            "remainingLoan": 26466.76725056274
+          },
+          {
+            "year": 16,
+            "month": 182,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 22.055639375468953,
+            "amortized": 437.8386675823735,
+            "extraAmortization": 0.0,
+            "remainingLoan": 26028.928582980367
+          },
+          {
+            "year": 16,
+            "month": 183,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 21.69077381915031,
+            "amortized": 438.20353313869214,
+            "extraAmortization": 0.0,
+            "remainingLoan": 25590.725049841676
+          },
+          {
+            "year": 16,
+            "month": 184,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 21.325604208201398,
+            "amortized": 438.56870274964103,
+            "extraAmortization": 0.0,
+            "remainingLoan": 25152.156347092034
+          },
+          {
+            "year": 16,
+            "month": 185,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 20.960130289243363,
+            "amortized": 438.9341766685991,
+            "extraAmortization": 0.0,
+            "remainingLoan": 24713.222170423436
+          },
+          {
+            "year": 16,
+            "month": 186,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 20.5943518086862,
+            "amortized": 439.29995514915623,
+            "extraAmortization": 0.0,
+            "remainingLoan": 24273.92221527428
+          },
+          {
+            "year": 16,
+            "month": 187,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 20.22826851272857,
+            "amortized": 439.6660384451139,
+            "extraAmortization": 0.0,
+            "remainingLoan": 23834.256176829167
+          },
+          {
+            "year": 16,
+            "month": 188,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 19.861880147357642,
+            "amortized": 440.0324268104848,
+            "extraAmortization": 0.0,
+            "remainingLoan": 23394.223750018682
+          },
+          {
+            "year": 16,
+            "month": 189,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 19.495186458348904,
+            "amortized": 440.39912049949356,
+            "extraAmortization": 0.0,
+            "remainingLoan": 22953.82462951919
+          },
+          {
+            "year": 16,
+            "month": 190,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 19.128187191265994,
+            "amortized": 440.7661197665765,
+            "extraAmortization": 0.0,
+            "remainingLoan": 22513.058509752613
+          },
+          {
+            "year": 16,
+            "month": 191,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 18.760882091460513,
+            "amortized": 441.1334248663819,
+            "extraAmortization": 0.0,
+            "remainingLoan": 22071.925084886232
+          },
+          {
+            "year": 16,
+            "month": 192,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 18.393270904071862,
+            "amortized": 441.5010360537706,
+            "extraAmortization": 0.0,
+            "remainingLoan": 21630.42404883246
+          },
+          {
+            "year": 17,
+            "month": 193,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 18.025353374027052,
+            "amortized": 441.86895358381537,
+            "extraAmortization": 0.0,
+            "remainingLoan": 21188.555095248645
+          },
+          {
+            "year": 17,
+            "month": 194,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 17.657129246040537,
+            "amortized": 442.2371777118019,
+            "extraAmortization": 0.0,
+            "remainingLoan": 20746.317917536842
+          },
+          {
+            "year": 17,
+            "month": 195,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 17.288598264614038,
+            "amortized": 442.6057086932284,
+            "extraAmortization": 0.0,
+            "remainingLoan": 20303.712208843615
+          },
+          {
+            "year": 17,
+            "month": 196,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 16.919760174036348,
+            "amortized": 442.9745467838061,
+            "extraAmortization": 0.0,
+            "remainingLoan": 19860.737662059808
+          },
+          {
+            "year": 17,
+            "month": 197,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 16.550614718383173,
+            "amortized": 443.3436922394593,
+            "extraAmortization": 0.0,
+            "remainingLoan": 19417.39396982035
+          },
+          {
+            "year": 17,
+            "month": 198,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 16.181161641516958,
+            "amortized": 443.7131453163255,
+            "extraAmortization": 0.0,
+            "remainingLoan": 18973.680824504027
+          },
+          {
+            "year": 17,
+            "month": 199,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 15.81140068708669,
+            "amortized": 444.08290627075576,
+            "extraAmortization": 0.0,
+            "remainingLoan": 18529.59791823327
+          },
+          {
+            "year": 17,
+            "month": 200,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 15.441331598527727,
+            "amortized": 444.45297535931473,
+            "extraAmortization": 0.0,
+            "remainingLoan": 18085.144942873954
+          },
+          {
+            "year": 17,
+            "month": 201,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 15.07095411906163,
+            "amortized": 444.8233528387808,
+            "extraAmortization": 0.0,
+            "remainingLoan": 17640.321590035175
+          },
+          {
+            "year": 17,
+            "month": 202,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 14.70026799169598,
+            "amortized": 445.1940389661465,
+            "extraAmortization": 0.0,
+            "remainingLoan": 17195.12755106903
+          },
+          {
+            "year": 17,
+            "month": 203,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 14.329272959224191,
+            "amortized": 445.5650339986183,
+            "extraAmortization": 0.0,
+            "remainingLoan": 16749.56251707041
+          },
+          {
+            "year": 17,
+            "month": 204,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 13.957968764225344,
+            "amortized": 445.9363381936171,
+            "extraAmortization": 0.0,
+            "remainingLoan": 16303.626178876795
+          },
+          {
+            "year": 18,
+            "month": 205,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 13.586355149063996,
+            "amortized": 446.30795180877845,
+            "extraAmortization": 0.0,
+            "remainingLoan": 15857.318227068017
+          },
+          {
+            "year": 18,
+            "month": 206,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 13.214431855890016,
+            "amortized": 446.6798751019524,
+            "extraAmortization": 0.0,
+            "remainingLoan": 15410.638351966065
+          },
+          {
+            "year": 18,
+            "month": 207,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 12.842198626638389,
+            "amortized": 447.05210833120407,
+            "extraAmortization": 0.0,
+            "remainingLoan": 14963.586243634862
+          },
+          {
+            "year": 18,
+            "month": 208,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 12.469655203029053,
+            "amortized": 447.4246517548134,
+            "extraAmortization": 0.0,
+            "remainingLoan": 14516.161591880049
+          },
+          {
+            "year": 18,
+            "month": 209,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 12.096801326566709,
+            "amortized": 447.7975056312757,
+            "extraAmortization": 0.0,
+            "remainingLoan": 14068.364086248774
+          },
+          {
+            "year": 18,
+            "month": 210,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 11.723636738540646,
+            "amortized": 448.1706702193018,
+            "extraAmortization": 0.0,
+            "remainingLoan": 13620.193416029471
+          },
+          {
+            "year": 18,
+            "month": 211,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 11.35016118002456,
+            "amortized": 448.5441457778179,
+            "extraAmortization": 0.0,
+            "remainingLoan": 13171.649270251653
+          },
+          {
+            "year": 18,
+            "month": 212,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 10.976374391876378,
+            "amortized": 448.91793256596605,
+            "extraAmortization": 0.0,
+            "remainingLoan": 12722.731337685687
+          },
+          {
+            "year": 18,
+            "month": 213,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 10.602276114738073,
+            "amortized": 449.2920308431044,
+            "extraAmortization": 0.0,
+            "remainingLoan": 12273.439306842583
+          },
+          {
+            "year": 18,
+            "month": 214,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 10.227866089035487,
+            "amortized": 449.66644086880694,
+            "extraAmortization": 0.0,
+            "remainingLoan": 11823.772865973777
+          },
+          {
+            "year": 18,
+            "month": 215,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 9.853144054978149,
+            "amortized": 450.0411629028643,
+            "extraAmortization": 0.0,
+            "remainingLoan": 11373.731703070913
+          },
+          {
+            "year": 18,
+            "month": 216,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 9.478109752559094,
+            "amortized": 450.41619720528337,
+            "extraAmortization": 0.0,
+            "remainingLoan": 10923.31550586563
+          },
+          {
+            "year": 19,
+            "month": 217,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 9.102762921554692,
+            "amortized": 450.79154403628775,
+            "extraAmortization": 0.0,
+            "remainingLoan": 10472.523961829342
+          },
+          {
+            "year": 19,
+            "month": 218,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 8.727103301524451,
+            "amortized": 451.167203656318,
+            "extraAmortization": 0.0,
+            "remainingLoan": 10021.356758173024
+          },
+          {
+            "year": 19,
+            "month": 219,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 8.351130631810854,
+            "amortized": 451.5431763260316,
+            "extraAmortization": 0.0,
+            "remainingLoan": 9569.813581846993
+          },
+          {
+            "year": 19,
+            "month": 220,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 7.974844651539161,
+            "amortized": 451.9194623063033,
+            "extraAmortization": 0.0,
+            "remainingLoan": 9117.89411954069
+          },
+          {
+            "year": 19,
+            "month": 221,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 7.598245099617242,
+            "amortized": 452.2960618582252,
+            "extraAmortization": 0.0,
+            "remainingLoan": 8665.598057682464
+          },
+          {
+            "year": 19,
+            "month": 222,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 7.2213317147353875,
+            "amortized": 452.67297524310703,
+            "extraAmortization": 0.0,
+            "remainingLoan": 8212.925082439357
+          },
+          {
+            "year": 19,
+            "month": 223,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 6.844104235366131,
+            "amortized": 453.05020272247634,
+            "extraAmortization": 0.0,
+            "remainingLoan": 7759.87487971688
+          },
+          {
+            "year": 19,
+            "month": 224,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 6.466562399764067,
+            "amortized": 453.42774455807836,
+            "extraAmortization": 0.0,
+            "remainingLoan": 7306.447135158802
+          },
+          {
+            "year": 19,
+            "month": 225,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 6.0887059459656685,
+            "amortized": 453.8056010118768,
+            "extraAmortization": 0.0,
+            "remainingLoan": 6852.641534146925
+          },
+          {
+            "year": 19,
+            "month": 226,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 5.710534611789104,
+            "amortized": 454.18377234605333,
+            "extraAmortization": 0.0,
+            "remainingLoan": 6398.457761800872
+          },
+          {
+            "year": 19,
+            "month": 227,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 5.33204813483406,
+            "amortized": 454.5622588230084,
+            "extraAmortization": 0.0,
+            "remainingLoan": 5943.8955029778635
+          },
+          {
+            "year": 19,
+            "month": 228,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 4.953246252481553,
+            "amortized": 454.9410607053609,
+            "extraAmortization": 0.0,
+            "remainingLoan": 5488.954442272503
+          },
+          {
+            "year": 20,
+            "month": 229,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 4.574128701893753,
+            "amortized": 455.3201782559487,
+            "extraAmortization": 0.0,
+            "remainingLoan": 5033.634264016554
+          },
+          {
+            "year": 20,
+            "month": 230,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 4.194695220013795,
+            "amortized": 455.69961173782866,
+            "extraAmortization": 0.0,
+            "remainingLoan": 4577.9346522787255
+          },
+          {
+            "year": 20,
+            "month": 231,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 3.814945543565605,
+            "amortized": 456.07936141427683,
+            "extraAmortization": 0.0,
+            "remainingLoan": 4121.855290864449
+          },
+          {
+            "year": 20,
+            "month": 232,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 3.4348794090537074,
+            "amortized": 456.4594275487887,
+            "extraAmortization": 0.0,
+            "remainingLoan": 3665.39586331566
+          },
+          {
+            "year": 20,
+            "month": 233,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 3.05449655276305,
+            "amortized": 456.8398104050794,
+            "extraAmortization": 0.0,
+            "remainingLoan": 3208.5560529105805
+          },
+          {
+            "year": 20,
+            "month": 234,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 2.6737967107588174,
+            "amortized": 457.2205102470836,
+            "extraAmortization": 0.0,
+            "remainingLoan": 2751.335542663497
+          },
+          {
+            "year": 20,
+            "month": 235,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 2.292779618886248,
+            "amortized": 457.6015273389562,
+            "extraAmortization": 0.0,
+            "remainingLoan": 2293.734015324541
+          },
+          {
+            "year": 20,
+            "month": 236,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 1.911445012770451,
+            "amortized": 457.982861945072,
+            "extraAmortization": 0.0,
+            "remainingLoan": 1835.7511533794689
+          },
+          {
+            "year": 20,
+            "month": 237,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 1.5297926278162242,
+            "amortized": 458.3645143300262,
+            "extraAmortization": 0.0,
+            "remainingLoan": 1377.3866390494427
+          },
+          {
+            "year": 20,
+            "month": 238,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 1.147822199207869,
+            "amortized": 458.74648475863455,
+            "extraAmortization": 0.0,
+            "remainingLoan": 918.6401542908081
+          },
+          {
+            "year": 20,
+            "month": 239,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 0.7655334619090068,
+            "amortized": 459.12877349593344,
+            "extraAmortization": 0.0,
+            "remainingLoan": 459.5113807948747
+          },
+          {
+            "year": 20,
+            "month": 240,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 0.3829261506623956,
+            "amortized": 459.5113807948747,
+            "extraAmortization": 0.0,
+            "remainingLoan": 0.0
+          }
+        ]
+      }
+    },
+    {
+      "mortgage": {
+        "bank": "Caixa",
+        "rate": { "first": 1.0, "rest": 1.0 },
+        "extraExpenses": 0.0,
+        "amount": 100000.0,
+        "years": 20.0
+      },
+      "amortization": { "kind": "Yearly", "value": 10000.0 },
+      "results": {
+        "monthly_payment": {
+          "first": 459.89430695784245,
+          "rest": 459.89430695784245
+        },
+        "finishes_paying_in": 7.0,
+        "total_interests": 3735.416155293397,
+        "total_expenses_and_interests": 3735.416155293397,
+        "records": [
+          {
+            "year": 1,
+            "month": 1,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 83.33333333333334,
+            "amortized": 376.5609736245091,
+            "extraAmortization": 0.0,
+            "remainingLoan": 99623.43902637549
+          },
+          {
+            "year": 1,
+            "month": 2,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 83.01953252197958,
+            "amortized": 376.87477443586283,
+            "extraAmortization": 0.0,
+            "remainingLoan": 99246.56425193962
+          },
+          {
+            "year": 1,
+            "month": 3,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 82.7054702099497,
+            "amortized": 377.18883674789276,
+            "extraAmortization": 0.0,
+            "remainingLoan": 98869.37541519172
+          },
+          {
+            "year": 1,
+            "month": 4,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 82.39114617932644,
+            "amortized": 377.503160778516,
+            "extraAmortization": 0.0,
+            "remainingLoan": 98491.8722544132
+          },
+          {
+            "year": 1,
+            "month": 5,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 82.076560212011,
+            "amortized": 377.8177467458314,
+            "extraAmortization": 0.0,
+            "remainingLoan": 98114.05450766737
+          },
+          {
+            "year": 1,
+            "month": 6,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 81.76171208972282,
+            "amortized": 378.1325948681196,
+            "extraAmortization": 0.0,
+            "remainingLoan": 97735.92191279925
+          },
+          {
+            "year": 1,
+            "month": 7,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 81.44660159399939,
+            "amortized": 378.44770536384306,
+            "extraAmortization": 0.0,
+            "remainingLoan": 97357.47420743541
+          },
+          {
+            "year": 1,
+            "month": 8,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 81.13122850619618,
+            "amortized": 378.76307845164627,
+            "extraAmortization": 0.0,
+            "remainingLoan": 96978.71112898376
+          },
+          {
+            "year": 1,
+            "month": 9,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 80.81559260748648,
+            "amortized": 379.078714350356,
+            "extraAmortization": 0.0,
+            "remainingLoan": 96599.63241463341
+          },
+          {
+            "year": 1,
+            "month": 10,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 80.49969367886118,
+            "amortized": 379.3946132789813,
+            "extraAmortization": 0.0,
+            "remainingLoan": 96220.23780135442
+          },
+          {
+            "year": 1,
+            "month": 11,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 80.18353150112868,
+            "amortized": 379.71077545671375,
+            "extraAmortization": 0.0,
+            "remainingLoan": 95840.52702589771
+          },
+          {
+            "year": 1,
+            "month": 12,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 79.86710585491477,
+            "amortized": 380.0272011029277,
+            "extraAmortization": 10000.0,
+            "remainingLoan": 85460.49982479478
+          },
+          {
+            "year": 2,
+            "month": 13,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 71.21708318732898,
+            "amortized": 388.6772237705135,
+            "extraAmortization": 0.0,
+            "remainingLoan": 85071.82260102427
+          },
+          {
+            "year": 2,
+            "month": 14,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 70.89318550085356,
+            "amortized": 389.00112145698887,
+            "extraAmortization": 0.0,
+            "remainingLoan": 84682.82147956728
+          },
+          {
+            "year": 2,
+            "month": 15,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 70.56901789963941,
+            "amortized": 389.32528905820305,
+            "extraAmortization": 0.0,
+            "remainingLoan": 84293.49619050907
+          },
+          {
+            "year": 2,
+            "month": 16,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 70.24458015875757,
+            "amortized": 389.6497267990849,
+            "extraAmortization": 0.0,
+            "remainingLoan": 83903.84646371
+          },
+          {
+            "year": 2,
+            "month": 17,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 69.91987205309167,
+            "amortized": 389.97443490475075,
+            "extraAmortization": 0.0,
+            "remainingLoan": 83513.87202880524
+          },
+          {
+            "year": 2,
+            "month": 18,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 69.59489335733771,
+            "amortized": 390.29941360050475,
+            "extraAmortization": 0.0,
+            "remainingLoan": 83123.57261520474
+          },
+          {
+            "year": 2,
+            "month": 19,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 69.26964384600396,
+            "amortized": 390.62466311183846,
+            "extraAmortization": 0.0,
+            "remainingLoan": 82732.9479520929
+          },
+          {
+            "year": 2,
+            "month": 20,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 68.94412329341075,
+            "amortized": 390.9501836644317,
+            "extraAmortization": 0.0,
+            "remainingLoan": 82341.99776842847
+          },
+          {
+            "year": 2,
+            "month": 21,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 68.61833147369039,
+            "amortized": 391.27597548415207,
+            "extraAmortization": 0.0,
+            "remainingLoan": 81950.72179294431
+          },
+          {
+            "year": 2,
+            "month": 22,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 68.29226816078693,
+            "amortized": 391.6020387970555,
+            "extraAmortization": 0.0,
+            "remainingLoan": 81559.11975414726
+          },
+          {
+            "year": 2,
+            "month": 23,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 67.96593312845606,
+            "amortized": 391.9283738293864,
+            "extraAmortization": 0.0,
+            "remainingLoan": 81167.19138031788
+          },
+          {
+            "year": 2,
+            "month": 24,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 67.63932615026491,
+            "amortized": 392.25498080757757,
+            "extraAmortization": 10000.0,
+            "remainingLoan": 70774.9363995103
+          },
+          {
+            "year": 3,
+            "month": 25,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 58.97911366625859,
+            "amortized": 400.9151932915839,
+            "extraAmortization": 0.0,
+            "remainingLoan": 70374.02120621872
+          },
+          {
+            "year": 3,
+            "month": 26,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 58.64501767184894,
+            "amortized": 401.2492892859935,
+            "extraAmortization": 0.0,
+            "remainingLoan": 69972.77191693273
+          },
+          {
+            "year": 3,
+            "month": 27,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 58.31064326411062,
+            "amortized": 401.5836636937318,
+            "extraAmortization": 0.0,
+            "remainingLoan": 69571.188253239
+          },
+          {
+            "year": 3,
+            "month": 28,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 57.9759902110325,
+            "amortized": 401.9183167468099,
+            "extraAmortization": 0.0,
+            "remainingLoan": 69169.26993649219
+          },
+          {
+            "year": 3,
+            "month": 29,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 57.64105828041016,
+            "amortized": 402.2532486774323,
+            "extraAmortization": 0.0,
+            "remainingLoan": 68767.01668781476
+          },
+          {
+            "year": 3,
+            "month": 30,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 57.30584723984563,
+            "amortized": 402.5884597179968,
+            "extraAmortization": 0.0,
+            "remainingLoan": 68364.42822809676
+          },
+          {
+            "year": 3,
+            "month": 31,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 56.9703568567473,
+            "amortized": 402.92395010109516,
+            "extraAmortization": 0.0,
+            "remainingLoan": 67961.50427799567
+          },
+          {
+            "year": 3,
+            "month": 32,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 56.63458689832973,
+            "amortized": 403.2597200595127,
+            "extraAmortization": 0.0,
+            "remainingLoan": 67558.24455793615
+          },
+          {
+            "year": 3,
+            "month": 33,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 56.298537131613465,
+            "amortized": 403.595769826229,
+            "extraAmortization": 0.0,
+            "remainingLoan": 67154.64878810992
+          },
+          {
+            "year": 3,
+            "month": 34,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 55.962207323424934,
+            "amortized": 403.9320996344175,
+            "extraAmortization": 0.0,
+            "remainingLoan": 66750.7166884755
+          },
+          {
+            "year": 3,
+            "month": 35,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 55.62559724039625,
+            "amortized": 404.2687097174462,
+            "extraAmortization": 0.0,
+            "remainingLoan": 66346.44797875805
+          },
+          {
+            "year": 3,
+            "month": 36,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 55.28870664896505,
+            "amortized": 404.6056003088774,
+            "extraAmortization": 10000.0,
+            "remainingLoan": 55941.842378449175
+          },
+          {
+            "year": 4,
+            "month": 37,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 46.61820198204098,
+            "amortized": 413.27610497580145,
+            "extraAmortization": 0.0,
+            "remainingLoan": 55528.56627347337
+          },
+          {
+            "year": 4,
+            "month": 38,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 46.27380522789448,
+            "amortized": 413.620501729948,
+            "extraAmortization": 0.0,
+            "remainingLoan": 55114.94577174342
+          },
+          {
+            "year": 4,
+            "month": 39,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 45.929121476452856,
+            "amortized": 413.9651854813896,
+            "extraAmortization": 0.0,
+            "remainingLoan": 54700.98058626203
+          },
+          {
+            "year": 4,
+            "month": 40,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 45.58415048855169,
+            "amortized": 414.31015646929075,
+            "extraAmortization": 0.0,
+            "remainingLoan": 54286.670429792735
+          },
+          {
+            "year": 4,
+            "month": 41,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 45.23889202482728,
+            "amortized": 414.65541493301515,
+            "extraAmortization": 0.0,
+            "remainingLoan": 53872.01501485972
+          },
+          {
+            "year": 4,
+            "month": 42,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 44.89334584571643,
+            "amortized": 415.000961112126,
+            "extraAmortization": 0.0,
+            "remainingLoan": 53457.01405374759
+          },
+          {
+            "year": 4,
+            "month": 43,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 44.54751171145633,
+            "amortized": 415.34679524638614,
+            "extraAmortization": 0.0,
+            "remainingLoan": 53041.667258501206
+          },
+          {
+            "year": 4,
+            "month": 44,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 44.20138938208434,
+            "amortized": 415.6929175757581,
+            "extraAmortization": 0.0,
+            "remainingLoan": 52625.974340925444
+          },
+          {
+            "year": 4,
+            "month": 45,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 43.85497861743787,
+            "amortized": 416.03932834040455,
+            "extraAmortization": 0.0,
+            "remainingLoan": 52209.93501258504
+          },
+          {
+            "year": 4,
+            "month": 46,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 43.5082791771542,
+            "amortized": 416.38602778068827,
+            "extraAmortization": 0.0,
+            "remainingLoan": 51793.54898480435
+          },
+          {
+            "year": 4,
+            "month": 47,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 43.161290820670295,
+            "amortized": 416.73301613717217,
+            "extraAmortization": 0.0,
+            "remainingLoan": 51376.81596866718
+          },
+          {
+            "year": 4,
+            "month": 48,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 42.81401330722265,
+            "amortized": 417.0802936506198,
+            "extraAmortization": 10000.0,
+            "remainingLoan": 40959.735675016556
+          },
+          {
+            "year": 5,
+            "month": 49,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 34.1331130625138,
+            "amortized": 425.76119389532863,
+            "extraAmortization": 0.0,
+            "remainingLoan": 40533.97448112123
+          },
+          {
+            "year": 5,
+            "month": 50,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 33.77831206760103,
+            "amortized": 426.11599489024144,
+            "extraAmortization": 0.0,
+            "remainingLoan": 40107.85848623099
+          },
+          {
+            "year": 5,
+            "month": 51,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 33.423215405192494,
+            "amortized": 426.47109155264997,
+            "extraAmortization": 0.0,
+            "remainingLoan": 39681.387394678335
+          },
+          {
+            "year": 5,
+            "month": 52,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 33.06782282889861,
+            "amortized": 426.82648412894383,
+            "extraAmortization": 0.0,
+            "remainingLoan": 39254.56091054939
+          },
+          {
+            "year": 5,
+            "month": 53,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 32.712134092124494,
+            "amortized": 427.182172865718,
+            "extraAmortization": 0.0,
+            "remainingLoan": 38827.37873768368
+          },
+          {
+            "year": 5,
+            "month": 54,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 32.35614894806973,
+            "amortized": 427.5381580097727,
+            "extraAmortization": 0.0,
+            "remainingLoan": 38399.8405796739
+          },
+          {
+            "year": 5,
+            "month": 55,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 31.999867149728253,
+            "amortized": 427.8944398081142,
+            "extraAmortization": 0.0,
+            "remainingLoan": 37971.94613986579
+          },
+          {
+            "year": 5,
+            "month": 56,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 31.643288449888157,
+            "amortized": 428.2510185079543,
+            "extraAmortization": 0.0,
+            "remainingLoan": 37543.695121357836
+          },
+          {
+            "year": 5,
+            "month": 57,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 31.28641260113153,
+            "amortized": 428.6078943567109,
+            "extraAmortization": 0.0,
+            "remainingLoan": 37115.087227001124
+          },
+          {
+            "year": 5,
+            "month": 58,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 30.929239355834273,
+            "amortized": 428.96506760200816,
+            "extraAmortization": 0.0,
+            "remainingLoan": 36686.122159399114
+          },
+          {
+            "year": 5,
+            "month": 59,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 30.57176846616593,
+            "amortized": 429.32253849167654,
+            "extraAmortization": 0.0,
+            "remainingLoan": 36256.79962090744
+          },
+          {
+            "year": 5,
+            "month": 60,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 30.213999684089536,
+            "amortized": 429.68030727375293,
+            "extraAmortization": 10000.0,
+            "remainingLoan": 25827.119313633688
+          },
+          {
+            "year": 6,
+            "month": 61,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 21.522599428028073,
+            "amortized": 438.3717075298144,
+            "extraAmortization": 0.0,
+            "remainingLoan": 25388.747606103872
+          },
+          {
+            "year": 6,
+            "month": 62,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 21.15728967175323,
+            "amortized": 438.7370172860892,
+            "extraAmortization": 0.0,
+            "remainingLoan": 24950.010588817782
+          },
+          {
+            "year": 6,
+            "month": 63,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 20.791675490681488,
+            "amortized": 439.10263146716096,
+            "extraAmortization": 0.0,
+            "remainingLoan": 24510.90795735062
+          },
+          {
+            "year": 6,
+            "month": 64,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 20.42575663112552,
+            "amortized": 439.4685503267169,
+            "extraAmortization": 0.0,
+            "remainingLoan": 24071.439407023903
+          },
+          {
+            "year": 6,
+            "month": 65,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 20.059532839186588,
+            "amortized": 439.83477411865584,
+            "extraAmortization": 0.0,
+            "remainingLoan": 23631.604632905248
+          },
+          {
+            "year": 6,
+            "month": 66,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 19.693003860754374,
+            "amortized": 440.20130309708804,
+            "extraAmortization": 0.0,
+            "remainingLoan": 23191.40332980816
+          },
+          {
+            "year": 6,
+            "month": 67,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 19.3261694415068,
+            "amortized": 440.56813751633564,
+            "extraAmortization": 0.0,
+            "remainingLoan": 22750.835192291823
+          },
+          {
+            "year": 6,
+            "month": 68,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 18.959029326909853,
+            "amortized": 440.9352776309326,
+            "extraAmortization": 0.0,
+            "remainingLoan": 22309.89991466089
+          },
+          {
+            "year": 6,
+            "month": 69,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 18.591583262217412,
+            "amortized": 441.30272369562505,
+            "extraAmortization": 0.0,
+            "remainingLoan": 21868.597190965265
+          },
+          {
+            "year": 6,
+            "month": 70,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 18.223830992471054,
+            "amortized": 441.6704759653714,
+            "extraAmortization": 0.0,
+            "remainingLoan": 21426.926714999892
+          },
+          {
+            "year": 6,
+            "month": 71,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 17.85577226249991,
+            "amortized": 442.03853469534255,
+            "extraAmortization": 0.0,
+            "remainingLoan": 20984.88818030455
+          },
+          {
+            "year": 6,
+            "month": 72,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 17.487406816920462,
+            "amortized": 442.406900140922,
+            "extraAmortization": 10000.0,
+            "remainingLoan": 10542.481280163629
+          },
+          {
+            "year": 7,
+            "month": 73,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 8.785401066803026,
+            "amortized": 451.1089058910394,
+            "extraAmortization": 0.0,
+            "remainingLoan": 10091.372374272589
+          },
+          {
+            "year": 7,
+            "month": 74,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 8.409476978560491,
+            "amortized": 451.4848299792819,
+            "extraAmortization": 0.0,
+            "remainingLoan": 9639.887544293308
+          },
+          {
+            "year": 7,
+            "month": 75,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 8.033239620244423,
+            "amortized": 451.861067337598,
+            "extraAmortization": 0.0,
+            "remainingLoan": 9188.026476955709
+          },
+          {
+            "year": 7,
+            "month": 76,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 7.656688730796424,
+            "amortized": 452.237618227046,
+            "extraAmortization": 0.0,
+            "remainingLoan": 8735.788858728663
+          },
+          {
+            "year": 7,
+            "month": 77,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 7.2798240489405535,
+            "amortized": 452.6144829089019,
+            "extraAmortization": 0.0,
+            "remainingLoan": 8283.174375819761
+          },
+          {
+            "year": 7,
+            "month": 78,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 6.902645313183134,
+            "amortized": 452.9916616446593,
+            "extraAmortization": 0.0,
+            "remainingLoan": 7830.182714175102
+          },
+          {
+            "year": 7,
+            "month": 79,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 6.525152261812585,
+            "amortized": 453.36915469602985,
+            "extraAmortization": 0.0,
+            "remainingLoan": 7376.813559479072
+          },
+          {
+            "year": 7,
+            "month": 80,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 6.147344632899227,
+            "amortized": 453.74696232494324,
+            "extraAmortization": 0.0,
+            "remainingLoan": 6923.066597154128
+          },
+          {
+            "year": 7,
+            "month": 81,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 5.769222164295107,
+            "amortized": 454.12508479354733,
+            "extraAmortization": 0.0,
+            "remainingLoan": 6468.941512360581
+          },
+          {
+            "year": 7,
+            "month": 82,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 5.390784593633818,
+            "amortized": 454.5035223642086,
+            "extraAmortization": 0.0,
+            "remainingLoan": 6014.437989996372
+          },
+          {
+            "year": 7,
+            "month": 83,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 5.012031658330311,
+            "amortized": 454.8822752995121,
+            "extraAmortization": 0.0,
+            "remainingLoan": 5559.55571469686
+          },
+          {
+            "year": 7,
+            "month": 84,
+            "monthlyPayment": 459.89430695784245,
+            "interestPayed": 4.632963095580717,
+            "amortized": 455.26134386226175,
+            "extraAmortization": 5104.294370834598,
+            "remainingLoan": 0.0
+          }
+        ]
+      }
+    }
+  ]
+}
